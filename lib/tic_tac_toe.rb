@@ -46,5 +46,8 @@ class TicTacToe
       false
     end
   end
+  
+  def turn(input)
+    
     
 end
