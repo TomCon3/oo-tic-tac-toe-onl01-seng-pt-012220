@@ -89,6 +89,10 @@ def full?
 end
 
 def draw?
+  !(won?) && (full?)
+end
+
+def over?
   
 
 
