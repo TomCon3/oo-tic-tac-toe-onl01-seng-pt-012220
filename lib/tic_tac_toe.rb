@@ -38,5 +38,12 @@ class TicTacToe
     end 
   end
     
+  def valid_move(position)
+    if @board[position] == ""
+      true
+    else
+      false
+    end
+    
     
 end
