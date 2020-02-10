@@ -64,8 +64,9 @@ def turn_count
     puts "Please enter 1-9:"
     input = gets.strip
     index = input_to_index(input)
+    char = current_player
     if valid_move?(input)
-      move(input, current_player)
+      move(input, char)
       display_board
     else
       turn
