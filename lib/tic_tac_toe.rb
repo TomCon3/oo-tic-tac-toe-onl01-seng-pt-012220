@@ -107,7 +107,6 @@ def winner
     end
   end
 end
-end
 
 def play
   while over? == false
@@ -120,4 +119,3 @@ def play
   end
 end
 
-end
