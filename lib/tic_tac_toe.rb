@@ -73,6 +73,9 @@ def turn_count
     end
 end
 
+def won?
+  
+
 
   
 end
