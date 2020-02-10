@@ -40,10 +40,10 @@ class TicTacToe
     
   def valid_move(position)
     position = position.to_i - 1
-    if @board[position] == "X" || @board[position] == "O"
-      false
-    else
+    if position.between?(0,8) && !position_taken?(position)
       true
+    else
+      false
     end
   end
     
