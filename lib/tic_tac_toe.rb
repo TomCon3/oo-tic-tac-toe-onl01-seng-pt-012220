@@ -39,10 +39,10 @@ class TicTacToe
   end
     
   def valid_move(position)
-    if @board[position] == ""
-      true
-    else
+    if @board[position] == "X" || @board[position] == "O"
       false
+    else
+      true
     end
   end
     
