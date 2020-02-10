@@ -65,8 +65,8 @@ def turn_count
     input = gets.strip
     index = input_to_index(input)
     char = current_player
-    if valid_move?(input)
-      move(input, char)
+    if valid_move?(index)
+      move(index, char)
       display_board
     else
       turn
